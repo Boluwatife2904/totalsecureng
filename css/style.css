@@ -512,8 +512,20 @@ a {
 /* FOOTER */
 .footer__section {
   margin-top: 50px;
-  border-top: 2px solid #ac0404;
-  padding: 30px 10px 20px 10px;
+  padding: 0;
+  background: #1C2332;
+}
+
+.footer__section .copyright{
+  background: #161C27;
+  padding: 15px;
+  text-align: center;
+}
+
+.footer__section .copyright p{
+  line-height: normal;
+  margin-bottom: 0;
+  font-size: 16px;
 }
 
 .footer__section img {
@@ -522,6 +534,7 @@ a {
 
 .footer__section p {
   font-size: 14px;
+  color: #ffffff;
 }
 
 .footer__section .footer__navigation {
@@ -533,13 +546,26 @@ a {
 }
 
 .footer__section .footer__navigation li a {
-  color: #ac0404;
+  color: #ffffff;
   text-decoration: underline;
 }
 
 .footer__section h4 {
   font-size: 20px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  position: relative;
+}
+
+.footer__section h4::after{
+  content: "";
+  height: 2px;
+  width: 80px;
+  background-color: #6F45E5;
+  border-radius: 4px;
+  position: absolute;
+  top: 30px;
+  left: 0;
 }
 
 .footer__section .contact__us li {
@@ -547,7 +573,7 @@ a {
 }
 
 .footer__section .contact__us p {
-  color: #ac0404;
+  color: #ffffff;
 }
 
 .footer__section .contact__us p span {
@@ -567,8 +593,38 @@ a {
   margin: 1px;
 }
 
+.footer__section header{
+  background-color: #6352CE;
+  padding: 15px 50px;
+  color: #fff;
+  line-height: normal;
+  align-items: center;
+}
+
+.footer__section header p{
+  font-size: 17px;
+}
+
+.footer__section header ul{
+  display: flex;
+}
+
+.footer__section header ul li{
+  margin-right: 10px;
+}
+
+.footer__section header ul li a{
+  color: #ffffff;
+  font-size: 24px;
+}
+
 /* SCROLL TO TOP */
+#scrollBtn:hover{
+  background: #222222;
+}
+
 #scrollBtn {
+  transition: all .5s;
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
   bottom: 20px; /* Place the button at the bottom of the page */
