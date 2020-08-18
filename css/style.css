@@ -22,7 +22,6 @@ a {
 
 /* NAVBAR */
 
-
 /* END NAVBAR */
 
 /* BREADCRUMB */
@@ -66,11 +65,11 @@ a {
 .breadcrumb__area .arrow-icon i {
   font-size: 12px;
 }
-.breadcrumb__area a{
-    color: #ffffff;
+.breadcrumb__area a {
+  color: #ffffff;
 }
-.breadcrumb__area a:hover{
-    color: #ac0404;
+.breadcrumb__area a:hover {
+  color: #ac0404;
 }
 
 /* CONTACT PAGE */
@@ -258,6 +257,42 @@ a {
 .working__hours .award i {
   font-size: 28px;
   margin-right: 15px;
+}
+
+/* HOMEPAGE */
+.features{
+  background: #f9f9ff;
+}
+
+.single__feature:hover{
+  background: #ac0404;
+  color: #ffffff;
+  box-shadow: -14.142px 14.142px 20px 0px rgba(157, 157, 157, 0.5);
+}
+
+.single__feature {
+  cursor: pointer;
+  background: #ffffff;
+  padding: 30px;
+  margin-bottom: 30px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.single__feature h5 span{
+  margin-right: 12px;
+  margin-bottom: 12px;
+}
+
+.single__feature h5{
+  font-size: 18px;
+}
+
+.single__feature p{
+  font-weight: 400;
+  font-size: 15px;
 }
 
 /* OUR PARTNERS SLIDER */
@@ -479,6 +514,10 @@ a {
   margin-bottom: 30px;
 }
 
+.call__to__action h6 {
+  line-height: 28px;
+}
+
 .call__to__action a {
   display: inline-block;
   background-color: #ac0404;
@@ -490,7 +529,7 @@ a {
   margin-top: 15px;
 }
 
-.call__to__action a:hover{
+.call__to__action a:hover {
   background-color: #222222;
   box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.3);
 }
@@ -513,16 +552,16 @@ a {
 .footer__section {
   margin-top: 50px;
   padding: 0;
-  background: #1C2332;
+  background: #1c2332;
 }
 
-.footer__section .copyright{
-  background: #161C27;
+.footer__section .copyright {
+  background: #161c27;
   padding: 15px;
   text-align: center;
 }
 
-.footer__section .copyright p{
+.footer__section .copyright p {
   line-height: normal;
   margin-bottom: 0;
   font-size: 16px;
@@ -557,11 +596,11 @@ a {
   position: relative;
 }
 
-.footer__section h4::after{
+.footer__section h4::after {
   content: "";
   height: 2px;
   width: 80px;
-  background-color: #6F45E5;
+  background-color: #6f45e5;
   border-radius: 4px;
   position: absolute;
   top: 30px;
@@ -593,38 +632,39 @@ a {
   margin: 1px;
 }
 
-.footer__section header{
-  background-color: #6352CE;
-  padding: 15px 50px;
+.footer__section header {
+  background-color: #6352ce;
+  padding: 15px 30px;
   color: #fff;
   line-height: normal;
   align-items: center;
 }
 
-.footer__section header p{
+.footer__section header p {
   font-size: 17px;
-}
-
-.footer__section header ul{
-  display: flex;
-}
-
-.footer__section header ul li{
   margin-right: 10px;
 }
 
-.footer__section header ul li a{
+.footer__section header ul {
+  display: flex;
+}
+
+.footer__section header ul li {
+  margin-right: 10px;
+}
+
+.footer__section header ul li a {
   color: #ffffff;
   font-size: 24px;
 }
 
 /* SCROLL TO TOP */
-#scrollBtn:hover{
+#scrollBtn:hover {
   background: #222222;
 }
 
 #scrollBtn {
-  transition: all .5s;
+  transition: all 0.5s;
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
   bottom: 20px; /* Place the button at the bottom of the page */
@@ -661,5 +701,14 @@ a {
     width: 90%;
     height: 250px;
     margin: 0 auto;
+  }
+  .call__to__action h1 {
+    font-size: 35px;
+  }
+  .call__to__action h3 {
+    font-size: 16px;
+  }
+  .call__to__action h6 {
+    font-size: 15px;
   }
 }
