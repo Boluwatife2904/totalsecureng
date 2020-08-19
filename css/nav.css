@@ -9,7 +9,7 @@ a {
 .top-header {
   position: sticky;
   top: 0px;
-  background-color: #60b4df;
+  background-color: #b41d1d;
   width: 100%;
   z-index: 1000;
 }
@@ -92,6 +92,7 @@ a {
   opacity: 0;
   pointer-events: none;
   transition: 0.5s;
+  box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.15);
 }
 
 .dropdown.wide {
@@ -105,8 +106,8 @@ a {
 .dropdown-link > a {
   display: flex;
   background-color: #fff;
-  color: #3498db;
-  padding: 0.5rem 0.7rem;
+  color: #890303;
+  padding: 0.75rem 0.7rem;
   font-size: 0.9rem;
   align-items: center;
   justify-content: space-between;
@@ -115,7 +116,7 @@ a {
 }
 
 .dropdown-link:hover > a {
-  background-color: #3498db;
+  background-color: #bc3636;
   color: #fff;
 }
 
@@ -141,7 +142,7 @@ a {
 }
 
 .dropdown-link:first-child:hover ~ .arrow {
-  background-color: #3498db;
+  background-color: #bc3636;
 }
 
 .dropdown-link {
@@ -250,7 +251,7 @@ a {
     top: 5rem;
     left: 0;
     width: 100%;
-    background-color: #69bde7;
+    background-color: #c44f4f;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
@@ -292,7 +293,7 @@ a {
 
   .nav-link:hover > a {
     transform: scale(1);
-    background-color: #50a9d6;
+    background-color: #d58181;
   }
 
   .dropdown {
@@ -304,8 +305,9 @@ a {
     pointer-events: auto;
     width: 100%;
     padding: 0;
-    background-color: #3183ac;
+    background-color: #9a0303;
     display: none;
+    box-shadow: none;
   }
 
   .dropdown.wide {
@@ -335,14 +337,14 @@ a {
 
   .arrow {
     z-index: 1;
-    background-color: #69bde7;
+    background-color: #b41d1d;
     left: 10%;
     transform: scale(1.1) rotate(45deg);
     transition: 0.5s;
   }
 
   .nav-link:hover .arrow {
-    background-color: #50a9d6;
+    background-color: #c44f4f;
   }
 
   .dropdown .dropdown .arrow {
@@ -350,11 +352,11 @@ a {
   }
 
   .dropdown-link:hover > a {
-    background-color: #3a91bd;
+    background-color: #c44f4f;
   }
 
   .dropdown-link:first-child:hover ~ .arrow {
-    background-color: #50a9d6;
+    background-color: #c44f4f;
   }
 
   .nav-link > a > i {
