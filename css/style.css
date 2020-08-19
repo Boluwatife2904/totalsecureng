@@ -59,8 +59,9 @@ a {
 
 #myDiv {
   opacity: 0;
+  visibility: hidden;
   position: relative;
-  transition: opacity 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 /* END PRELOADER */
@@ -93,7 +94,7 @@ a {
 }
 
 .breadcrumb__area h6 {
-  color: #ac0404;
+  color: #3498db;
   margin-bottom: 15px;
 }
 .breadcrumb__area h2 {
@@ -306,7 +307,7 @@ a {
 }
 
 .single__feature:hover {
-  background: #ac0404;
+  background: #3498db;
   color: #ffffff;
   box-shadow: -14.142px 14.142px 20px 0px rgba(157, 157, 157, 0.5);
 }
@@ -709,11 +710,11 @@ iframe{
 
 .footer__section .footer__navigation li {
   margin-bottom: 10px;
+  transition: all .5s;
 }
 
 .footer__section .footer__navigation li a {
   color: #ffffff;
-  text-decoration: underline;
 }
 
 .footer__section h4 {
@@ -744,19 +745,6 @@ iframe{
 
 .footer__section .contact__us p span {
   padding-right: 6px;
-}
-
-.footer__section .contact__us li a {
-  height: 30px;
-  width: 30px;
-  line-height: 30px;
-  color: #ac0404;
-  background-color: #fff;
-  box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.1);
-  font-size: 20px;
-  padding: 10px 14px;
-  border-radius: 6px;
-  margin: 1px;
 }
 
 .footer__section header {
