@@ -57,7 +57,7 @@ a {
   }
 }
 
-#myDiv {
+#main__content {
   opacity: 0;
   visibility: hidden;
   position: relative;
@@ -97,22 +97,29 @@ a {
   color: #ffffff;
   margin-bottom: 15px;
 }
+
 .breadcrumb__area h2 {
   margin-bottom: 15px;
   font-weight: bold;
 }
+
 .breadcrumb__area span {
   margin-right: 8px;
 }
+
 .breadcrumb__area .arrow-icon i {
   font-size: 12px;
 }
+
 .breadcrumb__area a {
   color: #ffffff;
 }
+
 .breadcrumb__area a:hover {
   color: #ac0404;
 }
+
+/* END BREADCRUMB */
 
 /* CONTACT PAGE */
 .form-field {
@@ -209,6 +216,8 @@ a {
   color: #ac0404;
 }
 
+
+/* ABOUT US */
 .about__us {
   position: relative;
 }

@@ -6,8 +6,8 @@ function startPreload() {
 
 function showPage() {
   document.getElementById("loading-dots").style.display = "none";
-  document.getElementById("myDiv").style.opacity = "1";
-  document.getElementById("myDiv").style.visibility = "visible";
+  document.getElementById("main__content").style.opacity = "1";
+  document.getElementById("main__content").style.visibility = "visible";
 }
 
 // When the user scrolls down 20px from the top of the document, show the button
