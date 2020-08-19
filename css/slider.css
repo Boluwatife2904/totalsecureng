@@ -14,8 +14,7 @@
 .dot-container{
     position: absolute;
     bottom: 30px;
-    left: 42%;
-    transform: translateY(-50%);
+    left: 45%;
 }
 
 /* Hide the images by default */
@@ -104,4 +103,7 @@
     .mySlides img{
         height: 380px;
     }
+    .dot-container{
+      left: 40%;
+  }
 }
