@@ -1,7 +1,7 @@
 var myVar;
 
 function startPreload() {
-  myVar = setTimeout(showPage, 1800);
+  myVar = setTimeout(showPage, 1000);
 }
 
 function showPage() {
