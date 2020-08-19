@@ -727,7 +727,7 @@ iframe{
   content: "";
   height: 2px;
   width: 80px;
-  background-color: #6f45e5;
+  background-color: #3498db;
   border-radius: 4px;
   position: absolute;
   top: 30px;
@@ -760,7 +760,7 @@ iframe{
 }
 
 .footer__section header {
-  background-color: #6352ce;
+  background-color: #3498db;
   padding: 15px 30px;
   color: #fff;
   line-height: normal;
