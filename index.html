@@ -15,8 +15,16 @@
 
 </head>
 
-<body>
-    <!-- SCROLL TO TOP -->
+<body onload="startPreload()">
+    <!-- PRELOADER -->
+    <div id="loading-dots">
+        <div class="bounce"></div>
+        <div class="bounce2"></div>
+        <div class="bounce3"></div>
+    </div>
+
+    <main id="myDiv">
+            <!-- SCROLL TO TOP -->
     <button onclick="topFunction()" id="scrollBtn" title="Go to top"><span
             class="fa fa-long-arrow-alt-up"></span></button>
 
@@ -46,7 +54,7 @@
                                         <a href="telecommunication.html">Telecommunication</a>
                                     </li>
                                     <li class="dropdown-link">
-                                        <a href="generator-monitoring-solution">Generator Monitoring Solution</a>
+                                        <a href="generator-monitoring-solution.html">Generator Monitoring Solution</a>
                                     </li>
                                     <li class="dropdown-link">
                                         <a href="fire-and-safety-solutions.html">Fire and Safety Solutions</a>
@@ -164,7 +172,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center mb-4">
-                    <h4>Why Choose Us?</h4>
+                    <h4 class="header__text">Why Choose Us?</h4>
                 </div>
             </div>
 
@@ -248,7 +256,7 @@
         <div class="container">
             <div class="row mb-4">
                 <div class="col-md-12 text-center">
-                    <h4>Our Top Products</h4>
+                    <h4 class='header__text'>Our Top Products</h4>
                 </div>
             </div>
 
@@ -297,7 +305,7 @@
 
             </div>
 
-            <div class="row view__more__button text-center">
+            <div class="row mb-5 view__more__button text-center">
                 <div class="col-md-12">
                     <a href="home-automation-solution.html"> View More <span class="fa fa-chevron-right"></span></a>
                 </div>
@@ -305,6 +313,13 @@
         </div>
     </section>
 
+    <!-- CALL TO ACTION -->
+    <section class="call__to__action mb-5">
+        <h1>Total Secure Nigeria</h1>
+        <h3>No.1 Smart Home Company in Nigeria </h3>
+        <h6>FOR TOTAL CRIME PREVENTION, ENERGY EFFICIENCY, LIGHTING, SWITCHES, OUTLETS, DIMMERS, AND MORE</h6>
+        <a href="contact.html">Get a Free Quote from Us</a>
+    </section>
 
     <!-- our partners -->
     <section class="our__partners mb-5">
@@ -333,14 +348,6 @@
             <div class="slide"><img class="img-fluid" src="images/WHO-300x150.jpg" alt="Our Partners"></div>
         </section>
 
-    </section>
-
-    <!-- CALL TO ACTION -->
-    <section class="call__to__action">
-        <h1>Total Secure Nigeria</h1>
-        <h3>No.1 Smart Home Company in Nigeria </h3>
-        <h6>FOR TOTAL CRIME PREVENTION, ENERGY EFFICIENCY, LIGHTING, SWITCHES, OUTLETS, DIMMERS, AND MORE</h6>
-        <a href="contact.html">Get a Free Quote from Us</a>
     </section>
 
     <!-- FOOTER SECTION -->
@@ -406,6 +413,8 @@
             <p>&copy; 2020 Copyright: totalsecureng.com</p>
         </div>
     </section>
+    </main>
+
 
     <script src="js/jquery.js"></script>
     <script src="js/popper.min.js"></script>

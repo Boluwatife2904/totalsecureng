@@ -1,3 +1,14 @@
+var myVar;
+
+function startPreload() {
+  myVar = setTimeout(showPage, 1800);
+}
+
+function showPage() {
+  document.getElementById("loading-dots").style.display = "none";
+  document.getElementById("myDiv").style.opacity = "1";
+}
+
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function () {
   scrollFunction();

@@ -14,8 +14,16 @@
 
 </head>
 
-<body>
-    <!-- SCROLL TO TOP -->
+<body onload="startPreload()">
+    <!-- PRELOADER -->
+    <div id="loading-dots">
+        <div class="bounce"></div>
+        <div class="bounce2"></div>
+        <div class="bounce3"></div>
+    </div>
+
+    <main id="myDiv">
+       <!-- SCROLL TO TOP -->
     <button onclick="topFunction()" id="scrollBtn" title="Go to top"><span
             class="fa fa-long-arrow-alt-up"></span></button>
 
@@ -138,8 +146,6 @@
         </div>
     </header>
 
-
-
     <section class="mb-5">
         <div class="container mb-5">
             <div class="row align-items-center telecommunications mb-5">
@@ -256,8 +262,6 @@
         <a href="contact.html">Get a Free Quote from Us</a>
     </section>
 
-    
-
     <!-- FOOTER SECTION -->
     <section class="footer__section">
         <header class="d-flex justify-content-between">
@@ -320,8 +324,9 @@
         <div class="copyright">
             <p>&copy; 2020 Copyright: totalsecureng.com</p>
         </div>
-    </section>
-
+    </section> 
+    </main>
+    
 
 
     <script src="js/jquery.js"></script>

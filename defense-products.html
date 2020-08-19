@@ -14,7 +14,16 @@
 
 </head>
 
-<body>
+<body onload="startPreload()">
+    <!-- PRELOADER -->
+    <div id="loading-dots">
+        <div class="bounce"></div>
+        <div class="bounce2"></div>
+        <div class="bounce3"></div>
+    </div>
+
+    <main id="myDiv">
+        <!-- SCROLL TO TOP BUTTON -->
     <button onclick="topFunction()" id="scrollBtn" title="Go to top"><span class="fa fa-long-arrow-alt-up"></span></button> 
     
      <!-- NAVBAR -->
@@ -43,7 +52,7 @@
                                         <a href="telecommunication.html">Telecommunication</a>
                                     </li>
                                     <li class="dropdown-link">
-                                        <a href="generator-monitoring-solution">Generator Monitoring Solution</a>
+                                        <a href="generator-monitoring-solution.html">Generator Monitoring Solution</a>
                                     </li>
                                     <li class="dropdown-link">
                                         <a href="fire-and-safety-solutions.html">Fire and Safety Solutions</a>
@@ -296,8 +305,6 @@
         <a href="contact.html">Get a Free Quote from Us</a>
     </section>
 
-   
-
     <!-- FOOTER SECTION -->
     <section class="footer__section">
         <header class="d-flex justify-content-between">
@@ -361,6 +368,9 @@
             <p>&copy; 2020 Copyright: totalsecureng.com</p>
         </div>
     </section>
+    </main>
+
+    
 
 
     <script src="js/jquery.js"></script>

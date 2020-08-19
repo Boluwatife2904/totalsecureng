@@ -20,9 +20,49 @@ a {
   transition: all 0.5s;
 }
 
-/* NAVBAR */
+/* PRELOADER */
+#loading-dots {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+}
 
-/* END NAVBAR */
+#loading-dots > div {
+  width: 1rem;
+  height: 1rem;
+  background-color: #ac0404;
+  border-radius: 50%;
+  display: inline-block;
+  animation: 1.5s bounce infinite ease-in-out both;
+}
+
+#loading-dots .bounce {
+  animation-delay: -0.3s;
+}
+
+#loading-dots .bounce2 {
+  animation-delay: -0.15s;
+}
+
+@keyframes bounce {
+  0%,
+  80%,
+  100% {
+    transform: scale(0);
+  }
+  40% {
+    transform: scale(1);
+  }
+}
+
+#myDiv {
+  opacity: 0;
+  position: relative;
+  transition: opacity 1s ease-in-out;
+}
+
+/* END PRELOADER */
 
 /* BREADCRUMB */
 .breadcrumb__area {
@@ -260,11 +300,11 @@ a {
 }
 
 /* HOMEPAGE */
-.features{
+.features {
   background: #f9f9ff;
 }
 
-.single__feature:hover{
+.single__feature:hover {
   background: #ac0404;
   color: #ffffff;
   box-shadow: -14.142px 14.142px 20px 0px rgba(157, 157, 157, 0.5);
@@ -281,23 +321,22 @@ a {
   transition: all 0.3s ease 0s;
 }
 
-.single__feature h5 span{
+.single__feature h5 span {
   margin-right: 12px;
   margin-bottom: 12px;
 }
 
-.single__feature h5{
+.single__feature h5 {
   font-size: 18px;
 }
 
-.single__feature p{
+.single__feature p {
   font-weight: 400;
   font-size: 15px;
 }
 
 /* OUR PARTNERS SLIDER */
 .our__partners h4 {
-  color: #ac0404;
   font-size: 25px;
 }
 
@@ -549,26 +588,50 @@ a {
 }
 
 /* HOME PAGE SLIDER */
-.single__product img{
+.single__product img {
   width: 100%;
   height: 250px;
 }
 
-.view__more__button a{
+.view__more__button a {
   color: #ac0404;
   border: 1px solid #ac0404;
   padding: 12px 20px;
   border-radius: 4px;
 }
 
-.view__more__button a:hover{
+.view__more__button a:hover {
   background-color: #ac0404;
   color: #ffffff;
 }
 
-.view__more__button a span{
+.view__more__button a span {
   font-size: 14px;
   padding-left: 3px;
+}
+
+.header__text {
+  position: relative;
+  margin-bottom: 12px;
+}
+
+.header__text:after,
+.header__text:before {
+  width: 80px;
+  height: 2px;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background: #ac0404;
+  content: "";
+}
+
+.header__text:before {
+  width: 60px;
+  height: 2px;
+  bottom: -10px;
 }
 
 /* FOOTER */
